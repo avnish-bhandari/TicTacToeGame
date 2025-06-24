@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .box {
+        @apply h-[18vmin] w-[18vmin] bg-[#84a98c] rounded-lg shadow-md text-[#211a1d] font-semibold text-2xl;
+    }
+}

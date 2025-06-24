@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#2f3e46] text-center"> 
+    <div id="msg-container" class="hidden">
+        <p id="msg" class="text-[#ffffc7] text-4xl mt-6 font-semibold">Winner</p>
+        <button id="new-btn" class="p-2 border-[2px] rounded-md border-[#ffffc7] bg-[#cad2c5] mt-4 shadow-md">New Game</button>
+    </div>
+    <main>
+        <h1 class="text-4xl font-bold mt-14 text-[#cad2c5]">Tic-Tac-Toe Game</h1>
+        <div id="container" class="h-[70vh] flex items-center justify-center">
+            <div id="game" class="h-[60vmin] w-[60vmin] flex items-center justify-center flex-wrap gap-2">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-btn" class="p-2 border rounded-md border-white bg-[#cad2c5] mt-2 mb-6">Reset Game</button>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
